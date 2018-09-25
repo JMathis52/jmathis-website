@@ -1,0 +1,56 @@
+/* STYLES FOR PERSONAL WEBSITE */
+html, body {
+    background: #89B4AD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+.main-page {
+    height: 100%;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.nav-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links {
+    color: #FFFFFF;
+    margin: 0 35px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.nav-links:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    transform: scale(1.10, 1.10);
+    opacity: 1;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid #020F01;
+    border-radius: 5px;
+    background: #020F01;
+}
+
+#headerImg {
+    width: 25%;
+}

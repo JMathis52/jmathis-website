@@ -1,0 +1,113 @@
+/* STYLES FOR PERSONAL WEBSITE */
+html, body {
+    background: #89B4AD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+.main-page {
+    height: 100%;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.nav-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links {
+    color: #FFFFFF;
+    margin: 0 35px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.nav-links:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    transform: scale(1.10, 1.10);
+    opacity: 1;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid #020F01;
+    border-radius: 5px;
+    background: #020F01;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 500px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 100px;
+    margin-top: 0px;
+    transition: margin-top 2.5s;
+
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+
+    padding: 0;
+}
+
+.title.load {
+    margin-top: 200px;
+}
+
+#logo {
+    max-height: 150px;
+}
+
+#headerImg {
+    width: 25%;
+}
+
+/* Fade text in */
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
